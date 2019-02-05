@@ -1,0 +1,9 @@
+1549375777a:1:{s:11:"weather.htm";a:10:{s:8:"fileName";s:11:"weather.htm";s:7:"content";s:130:"title = "Weather"
+url = "/weather"
+layout = "bootstrap"
+is_hidden = 0
+
+[myWeather]
+max = 10
+==
+{% component 'myWeather' %}";s:5:"mtime";i:1549373827;s:6:"markup";s:27:"{% component 'myWeather' %}";s:4:"code";N;s:5:"title";s:7:"Weather";s:3:"url";s:8:"/weather";s:6:"layout";s:9:"bootstrap";s:9:"is_hidden";s:1:"0";s:9:"myWeather";a:1:{s:3:"max";s:2:"10";}}}

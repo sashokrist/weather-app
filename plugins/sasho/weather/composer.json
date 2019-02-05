@@ -1,0 +1,13 @@
+{
+    "name": "user1/weather",
+    "type": "october-plugin",
+    "authors": [
+        {
+            "name": "Alexander Keremidarov",
+            "email": "a.keremidarov@vconnect.dk"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

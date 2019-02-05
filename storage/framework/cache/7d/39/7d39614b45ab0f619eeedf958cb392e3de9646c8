@@ -1,0 +1,109 @@
+1549376030a:1:{s:17:"weather_table.htm";a:5:{s:8:"fileName";s:17:"weather_table.htm";s:7:"content";s:1407:"<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font-size: medium;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+{% if city %}
+    <h1 class="text-center">{{ city.name }}, {{ city.sys.country }}</h1>
+    <table>
+        <tr>
+            <td>Temperature: {{ city.main.temp }}</td>
+        </tr>
+        <tr>
+            <td>humidity: {{ city.main.humidity }}</td>
+        </tr>
+        <tr>
+            <td>temp_min: {{ city.main.temp_min }}</td>
+        </tr>
+        <tr>
+            <td>temp_max: {{ city.main.temp_max }}</td>
+        </tr>
+        <tr>
+            <td>wind: {{ city.wind.speed }} km/h</td>
+        </tr>
+        <tr>
+            <td>
+                longitude: <strong>{{ city.coord.lon }}</strong>
+                latitude: <strong> {{ city.coord.lat }} </strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               Weather is <strong>{{ city.weather[0].main }}</strong>
+                The sky is <strong>{{ city.weather[0].description }}</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>visibility: {{ city.visibility }} m.</td>
+        </tr>
+    </table>
+
+
+{% endif %}";s:5:"mtime";i:1549375427;s:6:"markup";s:1407:"<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font-size: medium;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+{% if city %}
+    <h1 class="text-center">{{ city.name }}, {{ city.sys.country }}</h1>
+    <table>
+        <tr>
+            <td>Temperature: {{ city.main.temp }}</td>
+        </tr>
+        <tr>
+            <td>humidity: {{ city.main.humidity }}</td>
+        </tr>
+        <tr>
+            <td>temp_min: {{ city.main.temp_min }}</td>
+        </tr>
+        <tr>
+            <td>temp_max: {{ city.main.temp_max }}</td>
+        </tr>
+        <tr>
+            <td>wind: {{ city.wind.speed }} km/h</td>
+        </tr>
+        <tr>
+            <td>
+                longitude: <strong>{{ city.coord.lon }}</strong>
+                latitude: <strong> {{ city.coord.lat }} </strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+               Weather is <strong>{{ city.weather[0].main }}</strong>
+                The sky is <strong>{{ city.weather[0].description }}</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>visibility: {{ city.visibility }} m.</td>
+        </tr>
+    </table>
+
+
+{% endif %}";s:4:"code";N;}}

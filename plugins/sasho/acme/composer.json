@@ -1,0 +1,14 @@
+{
+    "name": "user1/acme",
+    "type": "october-plugin",
+    "require": {
+        "composer/installers": "~1.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "authors": [
+        {
+            "name": "Alexander Keremidarov",
+            "email": "a.keremidarov@vconnect.dk"
+        }
+    ]
+}

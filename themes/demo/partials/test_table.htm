@@ -1,0 +1,41 @@
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+{% if rates %}
+    <table>
+
+        <tr>
+            <th>name</th>
+            <th>species</th>
+            <th>likes</th>
+            <th>dislikes</th>
+        </tr>
+
+        {% for item in rates %}
+            <tr>
+                <td>{{ item.name }}</td>
+                <td>{{ item.species }}  </td>
+`           {% for likes in item.foods.likes %}
+                <td>{{ likes }} </td>
+            {% endfor %}
+                {% for dislikes in item.foods.dislikes %}
+                    <td>{{ dislikes }} </td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+{% endif %}

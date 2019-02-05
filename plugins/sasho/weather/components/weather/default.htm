@@ -1,0 +1,13 @@
+
+<h1 class="text-center"><b>WEATHER APP</b></h1>
+<form
+      data-request-validate
+      data-request-update="weather_table: '#city'"
+      data-request="{{ __SELF__ }}::onWeather">
+    <div class="form-group">
+    <input type="text" name="city" class="form-control" placeholder="enter city" value="Sofia">
+    </div>
+    <button data-attach-loading type="submit" class="btn btn-primary form-control">Get Weather</button>
+</form>
+<div id="city">{% partial 'weather_table' %}</div>
+

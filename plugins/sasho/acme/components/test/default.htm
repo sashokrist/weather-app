@@ -1,0 +1,11 @@
+
+<h1 class="text-center"><b>Test API</b></h1>
+<form class="form-control"
+      data-request-validate
+      data-request-update="test_table: '#rates'"
+      data-request="{{ __SELF__ }}::onTest">
+
+    <button data-attach-loading type="submit" class="btn btn-primary">Run</button>
+</form>
+<div id="rates">{% partial 'test_table' %}</div>
+

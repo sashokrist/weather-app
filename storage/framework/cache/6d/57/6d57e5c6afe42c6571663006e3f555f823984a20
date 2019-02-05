@@ -1,0 +1,7 @@
+1549376030a:1:{s:10:"myAjax.htm";a:10:{s:8:"fileName";s:10:"myAjax.htm";s:7:"content";s:112:"title = "MyAjax"
+url = "/myajax"
+layout = "default"
+is_hidden = 0
+[myPlugin]
+==
+{% component 'myPlugin' %}";s:5:"mtime";i:1549276005;s:6:"markup";s:26:"{% component 'myPlugin' %}";s:4:"code";N;s:5:"title";s:6:"MyAjax";s:3:"url";s:7:"/myajax";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:8:"myPlugin";a:0:{}}}
