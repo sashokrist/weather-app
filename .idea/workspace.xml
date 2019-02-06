@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb94b607-0dc6-489a-aa18-a9c43e753b86" name="Default Changelist" comment="" />
+    <list default="true" id="fb94b607-0dc6-489a-aa18-a9c43e753b86" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plugins/sasho/weather/components/weather/default.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -40,7 +42,17 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-792" />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -60,12 +72,13 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1443" />
     <option name="y" value="-50" />
     <option name="width" value="1408" />
     <option name="height" value="968" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -77,6 +90,11 @@
             <path>
               <item name="apiajax" type="b2602c69:ProjectViewProjectNode" />
               <item name="apiajax" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiajax" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apiajax" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="apiajax" type="b2602c69:ProjectViewProjectNode" />
@@ -195,12 +213,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549274835115</updated>
-      <workItem from="1549274836385" duration="25096000" />
+      <workItem from="1549274836385" duration="25916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25096000" />
+    <option name="totallyTimeSpent" value="25916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1443" y="-50" width="1408" height="968" extended-state="0" />
@@ -343,6 +361,11 @@
         <state relative-caret-position="168">
           <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792" />
       </provider>
     </entry>
   </component>
