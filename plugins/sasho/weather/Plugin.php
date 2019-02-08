@@ -1,6 +1,10 @@
 <?php namespace Sasho\Weather;
 
 use Backend;
+use Illuminate\Support\Facades\Event;
+use Illuminate\Support\Facades\Lang;
+use Illuminate\Support\Facades\Validator;
+use Sasho\Weather\Rules\CityValidate;
 use System\Classes\PluginBase;
 
 /**
@@ -8,11 +12,7 @@ use System\Classes\PluginBase;
  */
 class Plugin extends PluginBase
 {
-    /**
-     * Returns information about this plugin.
-     *
-     * @return array
-     */
+
     public function pluginDetails()
     {
         return [
@@ -23,45 +23,26 @@ class Plugin extends PluginBase
         ];
     }
 
-    /**
-     * Register method, called when the plugin is first registered.
-     *
-     * @return void
-     */
+
     public function register()
     {
 
     }
 
-    /**
-     * Boot method, called right before the request route.
-     *
-     * @return array
-     */
+
+
     public function boot()
     {
+        Validator::extend('city_validate', CityValidate::class);
 
     }
-
-    /**
-     * Registers any front-end components implemented in this plugin.
-     *
-     * @return array
-     */
     public function registerComponents()
     {
-
-
         return [
             'Sasho\Weather\Components\Weather' => 'myWeather',
         ];
     }
 
-    /**
-     * Registers any back-end permissions used by this plugin.
-     *
-     * @return array
-     */
     public function registerPermissions()
     {
         return []; // Remove this line to activate
@@ -74,11 +55,7 @@ class Plugin extends PluginBase
         ];
     }
 
-    /**
-     * Registers back-end navigation items for this plugin.
-     *
-     * @return array
-     */
+
     public function registerNavigation()
     {
         return []; // Remove this line to activate
